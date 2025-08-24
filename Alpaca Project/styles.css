@@ -1,0 +1,115 @@
+body{
+    background-color:#ebebeb;
+}
+header{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding:1rem 3rem 0 7rem;
+    font-size: 1.5rem;
+}
+.alpaca-background{
+    background-color:#5596F6;
+    width:100%;
+    height: 12cm;
+    position: relative;
+}
+.container{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#random-btn, #download-btn{
+    padding: .8rem 3.5rem .8rem 3.5rem;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold; 
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+#random-btn:hover, #download-btn:hover{
+    background-color: #dbd8d8;
+}
+main{
+    display: flex;
+}
+section{
+    flex: 50%;
+    padding: 1rem 5rem 0 2rem;
+    
+}
+.alpaca-section{
+    width: 50%;
+    padding-left: 7rem;
+}
+.buttons-section{
+    width:50%;
+}
+h3{
+    font-family:sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn{
+    border-radius: 20px;
+    border: solid 2px lightblue;
+    margin:3px;
+    color:rgb(137, 189, 206);
+    padding-right:1.5rem;
+    padding-left:1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#mouth-btn{
+    padding-left:1.8rem;
+    padding-right:1.8rem;
+}
+#accessories-btn, #background-btn{
+    padding-left:2rem;
+    padding-right:2rem;
+}
+.btn:hover{
+    border:solid 2px #24509D;
+    color: #24509D;
+}
+.active{
+    background-color: #24509D;
+    border-color: #24509D;
+    color: #FFFFFF;
+}
+.active-style{
+    background-color: #24509D;
+    border-color: #24509D;
+    color: #FFFFFF;
+}
+.active:hover, .active-style:hover{
+    color: #FFFFFF;
+}
+.parts{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.alpaca-ears{
+    z-index: 0;
+}
+.alpaca-neck{
+    z-index: 1;
+}
+.alpaca-hair{
+    z-index: 3;
+}
+.alpaca-nose{
+    z-index: 2;
+}
+.alpaca-mouth{
+    z-index: 4;
+}
+.alpaca-eyes{
+    z-index: 5;
+}
+.alpaca-accessories{
+    z-index:4;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alpaca Image Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Alpaca Generator</h1>
+    </header>
+
+    <main>
+        <section class="alpaca-section">
+            <div id="alpaca-background" class="alpaca-background">
+                <img src="alpaca-assets/neck/default.png" id="alpaca-neck" class="alpaca-neck parts">
+                <img src="alpaca-assets/ears/default.png" id="alpaca-ears" class="alpaca-ears parts">
+                <img src="alpaca-assets/hair/default.png" id="alpaca-hair" class="alpaca-hair parts">
+                <img src="alpaca-assets/nose.png" id="alpaca-nose" class="alpaca-nose parts">
+                <img src="alpaca-assets/mouth/default.png" id="alpaca-mouth" class="alpaca-mouth parts">
+                <img src="alpaca-assets/eyes/default.png" id="alpaca-eyes" class="alpaca-eyes parts">
+                <img src="alpaca-assets/leg/default.png" id="alpaca-leg" class="alpaca-leg parts">
+                <img src="alpaca-assets/accessories/headphone.png" id="alpaca-accessories" class="alpaca-accessories parts">
+            </div>
+
+            <div class="container">
+                <button id="random-btn">Random</button>
+                <button id="download-btn">Download</button>
+            </div>
+
+        </section>
+
+        <section class="buttons-section">
+            <h3>Accessorize the Alpaca's</h3>
+            <div class="accessorize-buttons">
+                <button id="hair-btn" class="btn">Hair</button>
+                <button id="ears-btn" class="btn">Ears</button>
+                <button id="eyes-btn" class="btn">Eyes</button>
+                <button id="mouth-btn" class="btn">Mouth</button>
+                <button id="neck-btn" class="btn">Neck</button>
+                <button id="leg-btn" class="btn">Leg</button>
+                <button id="accessories-btn" class="btn">Accessories</button>
+                <button id="background-btn" class="btn">Background</button>
+            </div>
+            <h3>Style</h3>
+            <div id="style-buttons" class="style-buttons">
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="functionality.js"></script>
+</body>
+</html>
